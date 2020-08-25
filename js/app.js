@@ -1,1 +1,2 @@
-// CODE EXPLAINED channel
+//Select the elements 
+const clear = document.querySelector(".clear");
