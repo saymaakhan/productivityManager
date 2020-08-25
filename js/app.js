@@ -15,16 +15,15 @@ let LIST, id;
 // Get item from localStorage
 let data = localStorage.getItem("TODO");
 
-// Check if Data is not empty
+// Check if data is not empty
 if (data) {
     LIST = JSON.parse(data);
     id = LIST.length; // set the id to the last one in the list 
     loadList(LIST); // load the lists to the user interface (UI)
-} else {
+} else { //if data is not empty 
     LIST = [];
     id = 0;
 }
-
 
 // Load items to the user's interface (UI)
 function loadList(array) {
