@@ -1,5 +1,0 @@
-Sources Used to create this application:
-
--Code Explained 
--Vicode Media
--True Coder 
